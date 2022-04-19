@@ -1,0 +1,18 @@
+{
+	"apiVersion": 2,
+	"name": "block-test/sample-block",
+    "version": "0.1.0",
+	"title": "Sample Block",
+	"category": "media",
+	"icon": "format-gallery",
+	"description": "A block of something.",
+	"keywords": [ "Image", "Gallery" ],
+	"supports": {
+		"html": false,
+		"align": [ "wide" ]
+	},
+	"textdomain": "sample-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
